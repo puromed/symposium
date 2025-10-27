@@ -2,6 +2,7 @@
     "private": true,
     "type": "module",
     "scripts": {
+         "test": "vendor/bin/pest",
         "build": "vite build",
         "dev": "vite",
         "format": "npx prettier --write resources/",
